@@ -1,0 +1,61 @@
+{
+  "difficult_words": [
+    {
+      "word": "deflected",
+      "synonyms": [
+        "diverted",
+        "redirected",
+        "turned aside"
+      ],
+      "antonyms": [
+        "directed",
+        "focused",
+        "concentrated"
+      ],
+      "usecase": "To describe something being bent or turned from its course.",
+      "example": "The shield deflected the blow, saving the knight's life."
+    },
+    {
+      "word": "debris",
+      "synonyms": [
+        "rubble",
+        "wreckage",
+        "detritus"
+      ],
+      "antonyms": [
+        "order",
+        "cleanliness",
+        "neatness"
+      ],
+      "usecase": "To refer to scattered fragments, typically of something broken or destroyed.",
+      "example": "After the storm, debris littered the beach."
+    },
+    {
+      "word": "short-circuited",
+      "synonyms": [
+        "failed",
+        "malfunctioned",
+        "overloaded"
+      ],
+      "antonyms": [
+        "functional",
+        "working",
+        "operational"
+      ],
+      "usecase": "To describe an electrical fault where the current takes an unintended path.",
+      "example": "The electric pump short-circuited due to water damage."
+    },
+    {
+      "word": "forestay",
+      "synonyms": [
+        "headstay",
+        "forestay",
+        "jib stay"
+      ],
+      "antonyms": [],
+      "usecase": "Describes a strong rope or wire that supports the mast of a sailing vessel.",
+      "example": "The forestay snapped during the storm, threatening the stability of the boat."
+    }
+  ],
+  "medium_words": []
+}

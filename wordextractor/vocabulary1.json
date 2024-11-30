@@ -1,0 +1,64 @@
+{
+  "difficult_words": [
+    {
+      "word": "elude",
+      "synonyms": [
+        "evade",
+        "escape",
+        "avoid"
+      ],
+      "antonyms": [
+        "confront",
+        "face",
+        "encounter"
+      ],
+      "usecase": "To elude means to evade or escape someone or something, often cleverly or skillfully.",
+      "example": "The thief managed to elude the police by disappearing into the crowded market."
+    },
+    {
+      "word": "surmises",
+      "synonyms": [
+        "guesses",
+        "conjectures",
+        "speculations"
+      ],
+      "antonyms": [
+        "certainties",
+        "facts",
+        "knowledges"
+      ],
+      "usecase": "Surmises are guesses or suppositions based on incomplete information.",
+      "example": "Based on the clues, her surmises about the murderer's identity proved correct."
+    },
+    {
+      "word": "satisfactory",
+      "synonyms": [
+        "acceptable",
+        "adequate",
+        "sufficient"
+      ],
+      "antonyms": [
+        "unsatisfactory",
+        "inadequate",
+        "deficient"
+      ],
+      "usecase": "Satisfactory means meeting or exceeding expectations; good enough.",
+      "example": "The mechanic provided a satisfactory explanation for the car's malfunction."
+    },
+    {
+      "word": "ingenious",
+      "synonyms": [
+        "clever",
+        "inventive",
+        "resourceful"
+      ],
+      "antonyms": [
+        "stupid",
+        "unimaginative",
+        "uninspired"
+      ],
+      "usecase": "Ingenious describes something cleverly devised or skillfully done.",
+      "example": "The engineer came up with an ingenious solution to the complex problem."
+    }
+  ]
+}
