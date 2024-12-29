@@ -1,0 +1,56 @@
+[
+  {
+    "id": "3d9be962-783e-4d99-a020-d89e629aa15d",
+    "question": "Which of the following sentences is in the passive voice, and how can you identify it?",
+    "answer": "The sentence in the passive voice is: 'The new policy was implemented last week.'",
+    "thought_process": "To identify a sentence in the passive voice, look for the verb form that ends in -ed or -en (past participle) followed by 'to be' + past participle. In this case, 'implemented' is the past participle of 'implement', and when combined with 'was' and 'to be', forms a sentence in the passive voice. This construction indicates that the subject (the new policy) received the action rather than performing it."
+  },
+  {
+    "id": "bc398133-ce7c-4525-ba2f-b482248dbbef",
+    "question": "Choose the word that best completes the following sentence: 'The new employee's __________ attitude was a breath of fresh air in the stagnant office environment. However, her tendency to micromanage soon became a source of tension among colleagues.",
+    "answer": "refreshing",
+    "thought_process": "To complete this sentence, we need to choose a word that conveys a sense of revitalization and positivity, implying that the employee's attitude brought a much-needed change to the office. 'Refreshing' is an appropriate choice because it suggests a renewal or rejuvenation of energy and enthusiasm. Other options like 'positive', 'enthusiastic', or 'motivated' might not provide the same level of connotation as 'refreshing', which implies a more tangible impact on the work environment. Additionally, words like 'energetic' or 'adventurous' might be too strong, as they could imply an overly intense or unpredictable attitude. "
+  },
+  {
+    "id": "05811d9c-6d80-4bcf-980d-6c181bfaacda",
+    "question": "Complete the sentence with the correct form of the possessive adjective: 'This is ______ book.'",
+    "answer": "my",
+    "thought_process": "To determine the correct form of the possessive adjective, we need to consider the context and the noun it modifies. In this case, the noun is 'book', which is a singular, inanimate object. The possessive adjective 'my' agrees with the singular subject (the speaker) and indicates ownership. Therefore, the correct answer is 'my book'."
+  },
+  {
+    "id": "ea866508-3157-4c1f-bf53-23e4e960caae",
+    "question": "Which verb tense is used in the sentence 'By the time I arrived, they had already eaten'?",
+    "answer": "Past perfect",
+    "thought_process": "To determine the correct answer, we need to analyze the sentence structure and identify the correct verb tense. The phrase 'by the time' indicates a completion of an action before another action, which suggests past perfect tense."
+  },
+  {
+    "id": "df2604f7-86b6-4315-a6b2-05f880d8c220",
+    "question": "Which verb tense is used to describe an action that started and finished in the past, but has a future connection?",
+    "answer": "future perfect",
+    "thought_process": "The question requires understanding of time tenses. The future perfect tense is used to describe an action that will start before a given point in the future and will be completed by then. It involves the use of 'will have' + past participle. For example, 'I will have eaten breakfast by 8 o'clock.'"
+  },
+  {
+    "id": "3fc9f9bd-be21-4579-b86d-0d59d649a4d7",
+    "question": "The new employee was very _______________________, having only worked in one place for a year before joining the company.",
+    "answer": "green",
+    "thought_process": "This word is used to describe someone who has recently started their job and may be learning new things. 'Green' implies a sense of freshness and newness, suggesting that the employee is still adjusting to their new role."
+  },
+  {
+    "id": "3b648b5c-edf7-4107-ae20-004e1ac2ec8d",
+    "question": "Complete the sentence with the appropriate phrasal verb: 'I have been ____________________ my English for years.',",
+    "answer": "studying",
+    "thought_process": "The correct answer is 'studying' because it fits grammatically and contextually. 'Studying' implies a prolonged period of effort to learn or improve something, which aligns with the idea of having been learning English for an extended time."
+  },
+  {
+    "id": "9c1a32c3-008a-4546-8b0e-d3c751aa2771",
+    "question": "She has a lot on her plate, but she still manages to _________ every deadline.",
+    "answer": "meet",
+    "thought_process": "This idiom means to accomplish or complete something. In this context, it suggests that even though someone has many tasks to handle, they are able to fulfill their responsibilities successfully."
+  },
+  {
+    "id": "ba314017-6f83-4e2d-ab99-0db1c1236d7e",
+    "question": "Fill in the blank with the appropriate phrasal verb: The new policy will ____________________ our budget for the next quarter.",
+    "answer": "reduce",
+    "thought_process": "The question requires the use of a phrasal verb that means to make something smaller or less. In this context, 'reduce' is the correct answer because it fits grammatically and logically with the sentence. Other options like 'increase' or 'improve' don't match the meaning of reducing budget."
+  }
+]
