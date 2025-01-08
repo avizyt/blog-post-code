@@ -1,0 +1,86 @@
+2/10  This project uses PydanticAI to generate SQL queries from natural language requests.  Think "Find all PG-rated films costing > $4" ->  `SELECT title...`
+
+1/10  🤯 Build production-ready LLM-powered apps that query your database using natural language!  Learn how with PydanticAI & Gemini! #LLMs #AI #databases
+
+2/10  This project uses PydanticAI to generate SQL queries from natural language requests.  Think "Find all PG-rated films costing > $4" ->  `SELECT title...`
+
+3/10  Example requests:  "Longest film?", "Average rental duration per category?"  The AI understands context & database schema! #SQL #Pydantic
+
+4/10  The magic happens with Gemini-1.5-Flash.  Its advanced NLP translates your requests into precise SQL. #GoogleAI #Gemini
+
+5/10  Robust error handling is key!  Pydantic models (`Success`, `InvalidRequest`) ensure type safety & validation. #Python #TypeSafety
+
+6/10  Dependency injection via a `Deps` class makes the code testable & maintainable.  Best practices FTW! #SoftwareEngineering #CleanCode
+
+7/10  The `main.py` handles prompts, connects to PostgreSQL (dvdrental database), runs the AI agent, and displays results. #PostgreSQL #Database
+
+8/10  Check out the project repo for the full code and dive into the step-by-step guide!  Build your own LLM-powered database app! [link to repo]
+
+9/10  Key takeaways: PydanticAI + Gemini = powerful SQL generation.  Robust validation is crucial. AI enhances, doesn't replace, database skills.
+
+10/10 Ready to level up your database interaction?  Build this project and share your results! #AIProjects #LLMApplications
+
+
+
+second prompt
+
+1/10 Ever wished you could just *ask* your database questions in plain English?  Turns out, you can!  Meet PydanticAI, making LLM-powered database apps a reality.
+
+2/10 Imagine saying "Find all PG-rated movies costing more than $4 to rent" and getting back perfect SQL code. That's the power of PydanticAI, combining the best of LLMs and structured data.
+
+3/10  It works by feeding an LLM (like Google's Gemini) your database schema and example queries. This helps the LLM understand your data and generate accurate SQL. Think of it as teaching the AI your database's language.
+
+4/10  But it's not just about generating SQL; PydanticAI also validates the results!  It uses Pydantic models to ensure the output is correctly formatted and error-free.  No more debugging cryptic SQL errors!
+
+5/10  The magic happens in the `main.py` file, where the LLM receives prompts, and the `models.py` file defines the structure for successful and unsuccessful queries.  Clean, organized code is key.
+
+6/10  Error handling is built-in!  If the LLM fails to generate a valid query, PydanticAI gracefully returns an error message.  No crashing, just helpful feedback.
+
+7/10  The project uses dependency injection for better testability and maintainability.  This means cleaner code, easier updates, and less headache down the line.
+
+8/10  Building this kind of application involves setting up database connections (using `asyncpg`), defining data models (with Pydantic), and handling responses.  It's all about structured workflows.
+
+9/10  PydanticAI makes building robust, production-ready LLM-powered database applications significantly easier.  Say goodbye to complex SQL and hello to natural language querying!
+
+10/10 Ready to build your own intelligent database application?  Check out the full article and project repo! Let me know what you think!
+
+
+JAX_tweet
+1/9 Ever feel like your Python code is moving at a snail's pace? 🐌 JAX might be your superhero! It's like NumPy, but on rocket fuel 🚀. Let's dive into how it makes Python code blazingly fast!
+
+2/9 JAX isn't just another library; it's a game-changer. Unlike NumPy, JAX uses "transformations" to optimize your code. Think of it as a magical spell that makes your functions run way faster! ✨
+
+3/9 Three key JAX transformations: `jit`, `grad`, and `vmap`. `jit` compiles your functions for speed, `grad` finds derivatives automatically, and `vmap` makes your code work on batches of data. It's like having a personal coding assistant!
+
+4/9 Imagine building a neural network from scratch. JAX makes it a breeze! It provides tools to define layers, activation functions (like ReLU), and even initialize weights with methods like He initialization, so your network learns efficiently.
+
+5/9 JAX also shines in optimization! Need to find the minimum of a complex function? JAX’s automatic differentiation, powered by `grad`, can handle it. It's like having a built-in calculus expert!
+
+6/9 Performance bottlenecks got you down? JAX helps you identify and fix them. It encourages you to "think functionally," avoiding unnecessary memory usage and temporary arrays. Efficiency is the name of the game!
+
+7/9 Debugging JAX can be tricky, but JAX provides tools like `debug.print()` to help you peek inside your code as it runs, even when compiled. It’s like having a flashlight in the dark corners of your code! 🔦
+
+8/9 JAX isn’t just about speed; it’s about writing clean, readable code too! It encourages best practices like processing data in chunks to manage memory and functional programming, making it both powerful and elegant.
+
+9/9 Ready to make your Python code lightning-fast? JAX is your go-to tool.  Read the full article to learn more about its incredible capabilities!
+
+
+Build Production_Grade
+
+1/9  Ever wished you could just *ask* your database questions in plain English instead of wrestling with SQL? 🤔 Well, PydanticAI might just be the magic wand you've been waiting for! ✨
+
+2/9  This isn't sci-fi! PydanticAI, paired with Google's Gemini-1.5-Flash, lets you build apps that understand natural language & generate SQL queries for you. Think of it as a translator for your database. 🗣️➡️🗄️
+
+3/9  How does it work? You give the AI examples of what you want (like "find all PG movies over $4"). It learns the structure of your database, then generates the SQL code automatically! 🤯 No more painful query writing.
+
+4/9  The code also uses data models to ensure the generated SQL is valid and type-safe. This way, the AI doesn't just give you *any* code, it gives you *good* code. Think of it like a spellcheck for your queries! ✅
+
+5/9  The article walks through building a complete app with PydanticAI, managing database connections, handling errors, and using structured responses. It's like a recipe for building your own AI-powered database assistant. 🧑‍🍳
+
+6/9  Here's the kicker: It's not just about replacing SQL. It's about *empowering* everyone to access and analyze data more easily, by making it more intuitive and approachable. It's AI as a helpful co-pilot, not a replacement. 🚀
+
+7/9  The article emphasizes the importance of robust validation. It's not enough for the AI to *generate* code; it needs to generate *correct* code. This is key for building reliable applications. 🛡️
+
+8/9  So, if you're curious about how AI can help you work with databases or just want to see some powerful coding in action, check out the full article! It's a game-changer! 🔗
+
+9/9  PydanticAI + Gemini-1.5-Flash = Easier, more accessible data management. What will you build? 🤔 Let me know in the comments! 👇
