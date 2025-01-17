@@ -1,0 +1,49 @@
+{
+  ".\\project_test\\find_palindrome.py": {
+    "definitions": {
+      "classes": [],
+      "functions": [
+        {
+          "name": "find_palindromes",
+          "lineno": 1
+        },
+        {
+          "name": "is_palindrome",
+          "lineno": 12
+        }
+      ],
+      "imports": []
+    },
+    "content": "def find_palindromes(s: str) -> list:\n    \"\"\"\n    Find all distinct palindromic substrings in the given string.\n\n    Args:\n        s (str): Input string to search for palindromes.\n\n    Returns:\n        list: A list of all distinct palindromic substrings.\n    \"\"\"\n\n    def is_palindrome(substring: str) -> bool:\n        return substring == substring[::-1]\n\n    n = len(s)\n    palindromes = set()\n\n    for i in range(n):\n        # Odd-length palindromes (centered at i)\n        l, r = i, i\n        while l >= 0 and r < n and s[l] == s[r]:\n            palindromes.add(s[l : r + 1])\n            l -= 1\n            r += 1\n\n        # Even-length palindromes (centered between i and i+1)\n        l, r = i, i + 1\n        while l >= 0 and r < n and s[l] == s[r]:\n            palindromes.add(s[l : r + 1])\n            l -= 1\n            r += 1\n\n    return sorted(palindromes)\n\n\n# Example usage:\ninput_string = \"ababa\"\nprint(find_palindromes(input_string))\n"
+  },
+  ".\\project_test\\test_codebase.py": {
+    "definitions": {
+      "classes": [],
+      "functions": [
+        {
+          "name": "test_query",
+          "lineno": 5
+        }
+      ],
+      "imports": [
+        "traceback"
+      ]
+    },
+    "content": "# test_codebase.py\nfrom query_engine.query_processor import QueryProcessor\n\n\ndef test_query():\n    processor = QueryProcessor()\n    # Intentionally cause an error by not initializing properly\n    result = processor.query(\"test\")\n    print(result)\n\n\nif __name__ == \"__main__\":\n    try:\n        test_query()\n    except Exception as e:\n        import traceback\n\n        with open(\"codebase_error.txt\", \"w\") as f:\n            f.write(traceback.format_exc())\n        print(f\"Error occurred: {e}\")\n"
+  },
+  ".\\project_test\\test_error.py": {
+    "definitions": {
+      "classes": [],
+      "functions": [
+        {
+          "name": "divide_numbers",
+          "lineno": 1
+        }
+      ],
+      "imports": [
+        "traceback"
+      ]
+    },
+    "content": "def divide_numbers():\n    try:\n        result = 10 / 0\n    except Exception as e:\n        import traceback\n\n        with open(\"error_trace.txt\", \"w\") as f:\n            f.write(traceback.format_exc())\n        raise e\n\n\nif __name__ == \"__main__\":\n    divide_numbers()\n"
+  }
+}
