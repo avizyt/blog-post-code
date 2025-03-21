@@ -1,0 +1,25 @@
+{
+  "name": "simple-agents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@llamaindex/chat-ui": "^0.3.1",
+    "@llamaindex/chroma": "^0.0.13",
+    "@llamaindex/google": "^0.1.2",
+    "@llamaindex/groq": "^0.0.60",
+    "@llamaindex/ollama": "^0.0.48",
+    "dotenv": "^16.4.7",
+    "llamaindex": "^0.9.11"
+  }
+}
